@@ -1,23 +1,19 @@
 // Dog Years
 
-const myAge = 27;
+const myAge = 27; //* start with const
 
-var earlyYears = 2;
+let earlyYears = 2; //*if need to reassign use let
 
-earlyYears *= earlyYears;
+earlyYears *= 10.5;
 
-laterYears = myAge - 2;
+let laterYears = myAge - 2;
 
-laterYears = laterYears * 4;
+laterYears *= 4;
 
-var myAgeInDogYears = earlyYears + laterYears;
+const myAgeInDogYears = earlyYears + laterYears;
 
-var originalString = "NICOLE";
-
-var myName = originalString.toLowerCase();
+const myName = "Nicole".toLowerCase();
 
 console.log(
   `My name is ${myName}. I am ${myAge} in human years which is ${myAgeInDogYears} years old in dog years.`
 );
-
-console.log(`Nicole`);
